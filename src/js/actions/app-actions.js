@@ -1,25 +1,25 @@
-import AppConstant from '../constants/app-constant'
+import AppConstants from '../constants/app-constants'
 import {dispatch, register} from '../dispatchers/app-dispatcher'
 
 export default {
   addItem(item) {
     dispatch({
-      actionType: AppConstant.ADD_ITEM, item
+      actionType: AppConstants.ADD_ITEM, item
     })
   },
   removeItem(item) {
     dispatch({
-      actionType: AppConstant.REMOVE_ITEM, item
+      actionType: AppConstants.REMOVE_ITEM, item
     })
   },
   increaseItem(item) {
     dispatch({
-      actionType: AppConstant.INCREASE_ITEM, item
+      actionType: AppConstants.INCREASE_ITEM, item
     })
   },
   decreaseItem(item) {
     dispatch({
-      actionType: AppConstant.DECREASE_ITEM, item
+      actionType: AppConstants.DECREASE_ITEM, item
     })
   }
 

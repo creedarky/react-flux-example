@@ -1,5 +1,5 @@
 import {dispatch, register} from '../dispatchers/app-dispatcher';
-import AppConstant from '../constants/app-constant';
+import AppConstants from '../constants/app-constants';
 import { EventEmitter } from 'events';
 
 
