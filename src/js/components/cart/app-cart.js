@@ -5,7 +5,7 @@ import StoreWatchMixin from '../../mixins/StoreWatchMixin'
 
 const cartItems = () => {
   return { items: AppStore.getCart() }
-}
+};
 
 const Cart = ( props ) => {
     var total = 0;
